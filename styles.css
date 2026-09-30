@@ -64,6 +64,25 @@ h2 { margin-top: 36px; }
 
 a { color: var(--accent); }
 
+.store-link {
+  display: inline-block;
+  margin-top: 12px;
+  padding: 12px 18px;
+  border-radius: 10px;
+  background: var(--accent);
+  color: #fff;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.store-link:hover, .store-link:focus-visible {
+  background: #1659c7;
+}
+
+.related-tool {
+  margin-top: 36px;
+}
+
 footer {
   margin-top: 64px;
   padding-top: 24px;
